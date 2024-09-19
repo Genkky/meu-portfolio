@@ -3,75 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Web</title>
+    <title>Meu Portfólio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         body {
-            font-family: Arial, sans-serif;
             background-color: #f8f9fa;
         }
         header {
-            background-color: purple;
-            background-size: cover;
-            background-position: center;
+            background-color: #007bff;
             color: white;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
         }
-        .section-title {
-            font-weight: bold;
-            text-transform: uppercase;
-            color: #0d6efd;
-        }
-        .rounded-3 {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        .content {
+            padding: 40px;
         }
         footer {
             background-color: #343a40;
+            color: white;
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
     <!-- Cabeçalho -->
-    <header class="text-center py-5">
-        <h1 class="display-4">Minha Página Web</h1>
-        <nav class="nav justify-content-center">
-            <a class="nav-link text-white" href="#Home">Home</a>
-            <a class="nav-link text-white" href="#Imagens">Imagens</a>
-            <a class="nav-link text-white" href="#Contatos">Contatos</a>
-        </nav>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <p>Bem-vindo ao meu site pessoal</p>
     </header>
 
-    <!-- Corpo -->
-    <main class="container mt-5">
-        <section id="secao1" class="mb-5">
-            <div class="p-5 bg-white rounded-3">
-                <h2 class="section-title">Seção 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
+    <!-- Corpo principal -->
+    <main class="container content">
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Sou desenvolvedor web com experiência em HTML, CSS, JavaScript e frameworks como Bootstrap. Este portfólio exibe alguns dos meus melhores projetos e habilidades.</p>
         </section>
 
-        <section id="secao2" class="mb-5">
-            <div class="p-5 bg-white rounded-3">
-                <h2 class="section-title">Seção 2</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </section>
-
-        <section id="secao3" class="mb-5">
-            <div class="p-5 bg-white rounded-3">
-                <h2 class="section-title">Seção 3</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <section class="mt-5">
+            <h2>Projetos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 1</h5>
+                            <p class="card-text">Descrição breve do projeto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 2</h5>
+                            <p class="card-text">Descrição breve do projeto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto 3</h5>
+                            <p class="card-text">Descrição breve do projeto.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="text-white text-center py-4">
-        <p>&copy; <span id="ano-atual"></span> Minha Página Web. Todos os direitos reservados.</p>
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
     </footer>
 
-    <script>
-        document.getElementById('ano-atual').textContent = new Date().getFullYear();
-    </script>
 </body>
 </html>
