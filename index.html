@@ -3,81 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
+    <title>Blog sobre Criação de Abelhas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .content {
-            padding: 40px;
-        }
-        footer {
-            background-color: #343a40;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Cabeçalho -->
     <header>
-        <h1>Meu Portfólio</h1>
-        <p>Bem-vindo ao meu site pessoal</p>
+        <h1>Blog sobre Criação de Abelhas</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Home</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Artigos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <!-- Corpo principal -->
-    <main class="container content">
+    <main class="container">
         <section>
-            <h2>Sobre Mim</h2>
-            <p>Sou desenvolvedor web com experiência em HTML, CSS, JavaScript e frameworks como Bootstrap. Este portfólio exibe alguns dos meus melhores projetos e habilidades.</p>
-        </section>
+            <div class="blog-post">
+                <h2>Introdução à Criação de Abelhas</h2>
+                <p>Se você está interessado em criar abelhas, este blog é o lugar certo para você!</p>
+                <img src="img/abelha1.jpeg" alt="Criação de Abelhas">
+            </div>
 
-        <section class="mt-5">
-            <h2>Projetos</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Projeto 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 1</h5>
-                            <p class="card-text">Descrição breve do projeto.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Projeto 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 2</h5>
-                            <p class="card-text">Descrição breve do projeto.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Projeto 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 3</h5>
-                            <p class="card-text">Descrição breve do projeto.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="blog-post">
+                <h2>Equipamentos Necessários</h2>
+                <p>Para começar a criar abelhas, você precisará de alguns equipamentos básicos.</p>
+                <img src="img/abelha2.jpg" alt="Equipamentos de Apicultura">
+            </div>
+
+            <div class="blog-post">
+                <h2>Cuidados com as Abelhas</h2>
+                <p>Manter suas abelhas saudáveis é fundamental para o sucesso da apicultura.</p>
+                <img src="img/abelha3.jpg" alt="Cuidados com Abelhas">
             </div>
         </section>
     </main>
 
     <!-- Rodapé -->
     <footer>
-        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Blog sobre Criação de Abelhas. Todos os direitos reservados.</p>
     </footer>
 
 </body>

@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #a3ff3b; /* Cor de fundo mais forte */
+    color: #343a40;
+    padding: 40px 20px; /* Mais espaçamento vertical e horizontal */
+    text-align: center;
+    border-bottom: 5px solid #ffc107; /* Linha de cor no fundo do cabeçalho */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Tamanho maior do título */
+}
+
+header nav {
+    margin-top: 20px; /* Espaçamento entre o título e o menu de navegação */
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.blog-post {
+    margin-bottom: 40px; /* Mais espaço entre as postagens */
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.blog-post h2 {
+    color: #007bff; /* Cor do título das postagens */
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.container {
+    background-color: #ffffff; /* Fundo branco para o conteúdo principal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
